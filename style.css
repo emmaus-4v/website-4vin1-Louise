@@ -58,30 +58,31 @@ a:hover {
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
-    margin: auto;
+    margin: 0;
     padding: 0;
-    background-color: #dddddd;
+    width:90px;
+    background-color: #e7e7e7;
     overflow: hidden;
 }
 
 nav ul li {
-    float: left;
+    float: bottom;
 }
 
 nav li a {
     display: block;
-    color: white;
+    color: rgb(193, 156, 235);
     text-align: center;
-    padding: 14px 16px;
+    padding: 8px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: rgb(199, 199, 199);
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(199, 199, 199);
 }
 
 
