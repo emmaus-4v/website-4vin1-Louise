@@ -23,7 +23,7 @@ article {
 
 
 header {
-    color: skyblue;
+    color: #000000;
     text-align: center;
 }
 
@@ -54,6 +54,9 @@ a:hover {
     text-decoration: underline;
 }
 
+h3 {
+    
+}
 
 /* navigatiebalk */
 nav ul {
@@ -71,14 +74,14 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: rgb(193, 156, 235);
+    color:#986EAD;
     text-align: center;
     padding: 8px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(211, 211, 212);
 }
 
 nav li a.active {
