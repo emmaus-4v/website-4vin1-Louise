@@ -1,4 +1,3 @@
-/* Basislayout */
 
 html, body {
     height: 100%;
@@ -18,13 +17,26 @@ main {
 
 
 article {
-    text-align: justify;
+    text-align: center;
+    position: relative;
+    bottom: 205px;
+    
 }
 
+p {
+    position:relative;
+    left:100px;
+    float:left;
+    border-right:100px transparent ;
+    padding-right:50px;
+    
+
+}
 
 header {
     color: #000000;
     text-align: center;
+   
 }
 
 
