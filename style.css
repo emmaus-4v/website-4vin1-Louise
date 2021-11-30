@@ -25,12 +25,12 @@ article {
 
 p {
     position:relative;
-    left:100px;
+    left:150px;
     float:left;
     border-right:100px transparent ;
     padding-right:50px;
     padding: 6px;
-    width: 60%;
+    width: 50%;
     
 
 }
@@ -82,7 +82,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width:90px;
+    width:125px;
     background-color: #e7e7e7;
     overflow: hidden;
 }
