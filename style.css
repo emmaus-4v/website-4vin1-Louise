@@ -29,6 +29,8 @@ p {
     float:left;
     border-right:100px transparent ;
     padding-right:50px;
+    padding: 6px;
+    width: 60%;
     
 
 }
@@ -41,7 +43,6 @@ header {
 
 .pony1 {
     float:right;
-    
     width:150px
 
 }
