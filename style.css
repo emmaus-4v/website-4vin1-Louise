@@ -23,33 +23,20 @@ main {
 }
 
 
-article {
-    /*text-align: center;*/
-    bottom: 205px;
-    
-}
 header {
     color: #000000;
     text-align: center;
 }
    
-p {
-  
+#float {
+   width:10px
 }
-
-h4 {
-
-}
-
 
 .foto1 {
     float:right;
     width:150px
 
 }
-
-.hoofdfoto {
-
    
 }
 footer {
