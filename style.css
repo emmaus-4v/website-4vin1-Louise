@@ -29,19 +29,16 @@ header {
 }
    
 #float {
-   width:10px
-}
-
-.foto1 {
-    float:right;
-    width:150px
-
-}
+   width:170px
    
 }
+
+   
+
 footer {
     text-align: center;
     padding-bottom: 10px;
+    
 }
 
 
