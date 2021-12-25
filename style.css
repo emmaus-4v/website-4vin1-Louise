@@ -11,8 +11,9 @@ html, body {
     padding: 0;
     background-color: #EEEEEE;  
     
-    color: #303030;
+    color: #000000;
     font: Verdana, Arial, Sans-Serif;
+
 }
 
 
@@ -27,13 +28,56 @@ header {
     color: #000000;
     text-align: center;
 }
+.foto0{
    
-#float {
-   width:170px
-   
+width:300px;
+height:250px;   
+}
+#foto0 {
+width:300px;
+height:250px;
+margin: 30px;
+position: absolute;
+left: 450px;
+bottom:300px;
 }
 
-   
+.foto {
+   width: 200px;
+   height:180px;
+   float:right;
+   margin:10px;
+
+
+}
+ #tekst{
+    margin:100px;
+    padding-left: 30px ;
+    padding-right: 35px;
+
+ }
+
+ #foto2 {
+width:300px;
+float:right;
+padding-right: 20px;
+ }
+
+ .tekst2 {
+    
+    padding-left: 120px ;
+    padding-right: 35px;
+ }
+
+#background{
+    background-image: url("afbeeldingen/map\ .png") ;
+    background-attachment: center fixed;
+    padding:20px;
+}
+
+#tekst3 {
+    background-color: white;
+}
 
 footer {
     text-align: center;
@@ -54,13 +98,14 @@ img.zweefLinks {
 }
 
 a {
-    color: skyblue;
+    color: rgb(175, 111, 235);
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
 }
+
 
 
 /* navigatiebalk */
@@ -83,7 +128,7 @@ nav ul li {
 
 nav li a {
     display: block;
-    color:#986EAD;
+    color:#000000;
     text-align: center;
     padding: 8px 16px;
     text-decoration: none;
