@@ -9,7 +9,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: #ffffff;  
     
     color: #000000;
     font: Verdana, Arial, Sans-Serif;
@@ -28,6 +28,7 @@ header {
     color: #000000;
     text-align: center;
 }
+/*index*/
 .foto0{
    
 width:300px;
@@ -41,22 +42,26 @@ position: absolute;
 left: 450px;
 bottom:300px;
 }
-
+/*hoofd*/
 .foto {
    width: 200px;
    height:180px;
    float:right;
    margin:10px;
 
-
 }
  #tekst{
     margin:100px;
-    padding-left: 30px ;
+    padding-left: 45px ;
     padding-right: 35px;
 
  }
 
+ #t {
+     background-color: rgb(210,159,226,255)
+     ;
+ }
+/*bij*/
  #foto2 {
 width:300px;
 float:right;
@@ -65,10 +70,11 @@ padding-right: 20px;
 
  .tekst2 {
     
-    padding-left: 120px ;
+    padding-left: 145px ;
     padding-right: 35px;
  }
-
+ 
+ /*equestria*/
 #background{
     background-image: url("afbeeldingen/map\ .png") ;
     background-attachment: center fixed;
@@ -98,7 +104,7 @@ img.zweefLinks {
 }
 
 a {
-    color: rgb(175, 111, 235);
+    color: rgb(154, 84, 219);
     text-decoration: none;
 }
 
@@ -109,21 +115,32 @@ a:hover {
 
 
 /* navigatiebalk */
+
+#menu{
+    border-radius: 10px;
+    
+    position: relative;
+    right:10px;
+}
+
 nav {
     float: left;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width:125px;
+    width:145px;
     background-color: #e7e7e7;
     overflow: hidden;
+   
+    
+
 }
 
 nav ul li {
     float: bottom;
+   
+    
 }
 
 nav li a {
@@ -136,10 +153,13 @@ nav li a {
 
 nav li a:hover {
     background-color: rgb(211, 211, 212);
+    
 }
 
 nav li a.active {
     background-color: rgb(199, 199, 199);
+   
+
 }
 
 
