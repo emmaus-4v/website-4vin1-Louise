@@ -12,7 +12,8 @@ html, body {
     background-color: #ffffff;  
     
     color: #000000;
-    font: Verdana, Arial, Sans-Serif;
+    font-family: monospace;
+    font-size:large;
 
 }
 
@@ -58,17 +59,31 @@ bottom:300px;
  }
 
  #t {
-     background-color: rgb(210,159,226,255)
-     ;
+     background-color: rgb(210,159,226,255);
  }
 
- #a {background-color: #f9c872;
+ #a {
+     background-color: #f9c872;
 }
 
-#f { background-color: #fdf2b2;
+#f { 
+    background-color: #fdf2b2;
 }
 
-#r{background-color: #a3def6;
+#d{
+    background-color: #a3def6;
+}
+
+#p { 
+    background-color:#f2afd4 ;
+}
+
+#r { 
+    background-color: #51c456;
+}
+
+#spike{
+    background-color:#c590c9;
 }
 /*bij*/
  #foto2 {
@@ -78,9 +93,9 @@ padding-right: 20px;
  }
 
  .tekst2 {
-    
     padding-left: 145px ;
     padding-right: 35px;
+
  }
  
  /*equestria*/
@@ -127,9 +142,8 @@ a:hover {
 
 #menu{
     border-radius: 10px;
-    
     position: relative;
-    right:10px;
+    right:30px;
 }
 
 nav {
@@ -156,8 +170,7 @@ nav li a {
     display: block;
     color:#000000;
     text-align: center;
-    padding: 8px 16px;
-    text-decoration: none;
+    padding: 10px 5px;
 }
 
 nav li a:hover {
